@@ -11,31 +11,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/config/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Usuario.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/Usuario.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="52" column="48" lean-forward="false" selection-start-line="52" selection-start-column="48" selection-end-line="52" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Usuario_model.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Usuario_model.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/Usuario_model.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1139">
               <caret line="72" column="57" lean-forward="false" selection-start-line="72" selection-start-column="57" selection-end-line="72" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form_validation_lang.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/language/portuguese-br/form_validation_lang.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="45" column="81" lean-forward="true" selection-start-line="45" selection-start-column="81" selection-end-line="45" selection-end-column="81" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form_validation_lang.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/system/language/portuguese-br/form_validation_lang.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form_validation_lang.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system/language/english/form_validation_lang.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="76" lean-forward="true" selection-start-line="23" selection-start-column="76" selection-end-line="23" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -114,6 +124,7 @@
       <find>form_validation_valid_</find>
       <find>was not set</find>
       <find>_error_messages</find>
+      <find>{param}</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -128,7 +139,6 @@
         <option value="$PROJECT_DIR$/application/config/autoload.php" />
         <option value="$PROJECT_DIR$/system/libraries/Form_validation.php" />
         <option value="$PROJECT_DIR$/application/config/config.php" />
-        <option value="$PROJECT_DIR$/application/language/portuguese-br/form_validation_lang.php" />
         <option value="$PROJECT_DIR$/system/language/portuguese-br/form_validation_lang.php" />
         <option value="C:/inetpub/wwwroot/teste/application/config/config.php" />
         <option value="$PROJECT_DIR$/application/views/template/success.php" />
@@ -139,6 +149,7 @@
         <option value="$PROJECT_DIR$/application/views/usuario/visualizar.php" />
         <option value="$PROJECT_DIR$/application/views/template/header.php" />
         <option value="$PROJECT_DIR$/application/models/Usuario_model.php" />
+        <option value="$PROJECT_DIR$/application/language/portuguese-br/form_validation_lang.php" />
       </list>
     </option>
   </component>
@@ -190,14 +201,32 @@
               <item name="teste" type="b2602c69:ProjectViewProjectNode" />
               <item name="teste" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="language" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="teste" type="b2602c69:ProjectViewProjectNode" />
               <item name="teste" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="template" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="language" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="portuguese-br" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="teste" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teste" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="system" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="teste" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teste" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="system" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="language" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="teste" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teste" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="system" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="language" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="portuguese-br" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -212,16 +241,17 @@
     <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\XAMPP\htdocs\teste\application\language\portuguese-br" />
-      <recent name="E:\XAMPP\htdocs\teste\application\language" />
-      <recent name="E:\XAMPP\htdocs\teste\application\views\usuario" />
-      <recent name="E:\XAMPP\htdocs\teste\application\views\template" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\XAMPP\htdocs\teste\system\language" />
       <recent name="E:\XAMPP\htdocs\teste" />
       <recent name="E:\XAMPP\htdocs\teste\public" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\XAMPP\htdocs\teste\system\language\portuguese-br" />
+      <recent name="E:\XAMPP\htdocs\teste\application\language\portuguese-br" />
+      <recent name="E:\XAMPP\htdocs\teste\application\language" />
+      <recent name="E:\XAMPP\htdocs\teste\application\views\usuario" />
+      <recent name="E:\XAMPP\htdocs\teste\application\views\template" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -253,12 +283,12 @@
       <option name="presentableId" value="Default" />
       <updated>1507916618767</updated>
       <workItem from="1507916620966" duration="42174000" />
-      <workItem from="1508086210238" duration="2013000" />
+      <workItem from="1508086210238" duration="2431000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44187000" />
+    <option name="totallyTimeSpent" value="44605000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -469,20 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system/language/portuguese-br/form_validation_lang.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/language/portuguese-br/form_validation_lang.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="68" column="93" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/language/portuguese-br/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -494,13 +510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="66" column="43" lean-forward="false" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/language/english/form_validation_lang.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="84" lean-forward="true" selection-start-line="24" selection-start-column="84" selection-end-line="24" selection-end-column="84" />
         </state>
       </provider>
     </entry>
@@ -595,6 +604,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
           <caret line="72" column="57" lean-forward="false" selection-start-line="72" selection-start-column="57" selection-end-line="72" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/language/english/form_validation_lang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="76" lean-forward="true" selection-start-line="23" selection-start-column="76" selection-end-line="23" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/language/portuguese-br/form_validation_lang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="45" column="81" lean-forward="true" selection-start-line="45" selection-start-column="81" selection-end-line="45" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/language/portuguese-br/form_validation_lang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding />
         </state>
       </provider>
