@@ -61,7 +61,6 @@ class Usuario_model extends CI_Model
         $data = [
             'strNome' => $this->input->post('strNome'),
             'strEmail' => $this->input->post('strEmail'),
-            'strSenha' => $this->input->post('strSenha'),
             'strCPF' => $this->input->post('strCpf')
         ];
 
@@ -72,7 +71,6 @@ class Usuario_model extends CI_Model
         $data = [
             'strNome' => $this->input->post('strNome'),
             'strEmail' => $this->input->post('strEmail'),
-            'strSenha' => $this->input->post('strSenha'),
             'strCpf' => $this->input->post('strCpf')
         ];
 
