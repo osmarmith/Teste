@@ -1,9 +1,9 @@
-# CodeIgniter 2
-Open Source PHP Framework (originally from EllisLab)
+ Teste Codeigniter
+ 
+ - Base de dados está inserida no pacote através do arquivo bdteste.
 
-For more info, please refer to the user-guide at http://www.codeigniter.com/userguide2/  
-(also available within the download package for offline use)
+ - É necessário ajustar o parâmetro $config['base_url'] dentro do arquivo aplication/config/config.php.
+ 
+ - É necessário também ajustar as configurações do banco de dados no arquivo aplication/config/database.php
 
-**WARNING:** *CodeIgniter 2.x is no longer under development and only receives security patches until October 31st, 2015.
-Please update your installation to the latest CodeIgniter 3.x version available
-(upgrade instructions [here](http://www.codeigniter.com/userguide3/installation/upgrade_300.html)).*
+
