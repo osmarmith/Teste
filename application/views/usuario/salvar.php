@@ -2,7 +2,7 @@
 
 <?php echo validation_errors(); ?>
 
-<form action="/teste/usuario/salvar" method="post">
+<form action="<?= base_url('usuario/salvar');?>" method="post">
 
     <div class="form-group">
         <label for="title">Nome</label>
@@ -19,5 +19,5 @@
 
 
     <input type="submit" name="submit" value="Criar novo usuário" class="btn btn-primary" />
-    <a href="/teste/usuario" class="btn btn-success">Voltar</a>
+    <a href="<?= base_url('usuario');?>" class="btn btn-success">Voltar</a>
 </form>

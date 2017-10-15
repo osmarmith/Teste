@@ -2,7 +2,7 @@
 
 <?php echo validation_errors(); ?>
 
-<form action="/teste/usuario/<?php echo $usuario->id; ?>/editar" method="post">
+<form action="<?= base_url('usuario/'.$usuario->id.'/editar');?>" method="post">
 
     <div class="form-group">
         <label for="title">Nome</label>
@@ -18,7 +18,7 @@
     </div>
 
     <input type="submit" name="submit" value="Atualizar este usuário" class="btn btn-primary" />
-    <a href="/teste/usuario" class="btn btn-success">Voltar</a>
+    <a href="<?= base_url('usuario');?>" class="btn btn-success">Voltar</a>
 </form>
 
 <hr>

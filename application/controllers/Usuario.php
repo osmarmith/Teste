@@ -50,7 +50,7 @@ class Usuario extends CI_Controller
             $this->load->view('usuario/salvar');
             $this->load->view('template/footer');
         }else{
-            $data['back'] = '/teste/usuario';
+            $data['back'] = base_url('usuario');
             $results = $this->usuario_model->salvar();
             $this->load->view('template/success',$data);
         }
@@ -70,7 +70,7 @@ class Usuario extends CI_Controller
             $this->load->view('usuario/editar', ['usuario'=>$usuario]);
             $this->load->view('template/footer');
         }else{
-            $data['back'] = '/teste/usuario/'.$id;
+            $data['back'] = base_url('usuario/'.$id);
             $results = $this->usuario_model->editar($id);
             $this->load->view('template/success', $data);
         }
@@ -78,7 +78,7 @@ class Usuario extends CI_Controller
 
     public function excluir($id)
     {
-        $data['back'] = '/teste/usuario';
+        $data['back'] = base_url('usuario');
         $this->usuario_model->excluir($id);
         $this->load->view('template/success', $data);
     }

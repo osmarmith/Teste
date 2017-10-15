@@ -10,4 +10,4 @@
 </div>
 
 <hr>
-<a href="/teste/usuario" class="btn btn-success">Voltar</a>
+<a href="<?= base_url('usuario');?>" class="btn btn-success">Voltar</a>

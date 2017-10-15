@@ -2,7 +2,7 @@
 
 <div class="text-center">
     <h1>Operação concluída com sucesso.</h1>
-    <p><a href="<?php echo $back; ?>" class="btn btn-lg btn-primary">voltar</a></p>
+    <p><a href="<?php echo $back; ?>" class="btn btn-lg btn-primary">Voltar</a></p>
 </div>
 
 <?php include __DIR__ . '/footer.php'; ?>

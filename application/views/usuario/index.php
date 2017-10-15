@@ -1,6 +1,6 @@
 
 <div class="col-md-16">
-    <form action="/teste/usuario"  method="post">
+    <form action="<?= base_url('usuario');?>"  method="post">
         <div class="form-group">
             <div class="col-md-4">
                 <input type="text" name="strPesquisar" placeholder="Pesquisar..." class="form-control"/></td>
@@ -49,9 +49,9 @@
             <td><?php echo $user->strEmail ?></td>
             <td><?php echo $user->strCpf ?></td>
             <td class="text-right">
-                <a href="/teste/usuario/<?php echo $user->id; ?>" class="btn btn-xs btn-default">Visualizar</a>
-                <a href="/teste/usuario/<?php echo $user->id; ?>/editar" class="btn btn-xs btn-info">Editar</a>
-                <a href="/teste/usuario/<?php echo $user->id; ?>/excluir" class="btn btn-xs btn-danger">Excluir</a>
+                <a href="<?= base_url('usuario/'.$user->id);?>" class="btn btn-xs btn-default">Visualizar</a>
+                <a href="<?= base_url('usuario/'.$user->id.'/editar');?>" class="btn btn-xs btn-info">Editar</a>
+                <a href="<?= base_url('usuario/'.$user->id.'/excluir');?>" class="btn btn-xs btn-danger">Excluir</a>
             </td>
         </tr>
     <?php endforeach ?>
@@ -59,5 +59,5 @@
 </table>
 <?php if($paginacao) echo $paginacao; ?>
 <div class="col-md-12 text-right">
-    <a href="/teste/usuario/salvar" class="btn btn-primary">Novo usuário</a>
+    <a href="<?= base_url('usuario/salvar');?>" class="btn btn-primary">Novo usuário</a>
 </div>
